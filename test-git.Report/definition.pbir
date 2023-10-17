@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../test-git.Dataset"
+    },
+    "byConnection": null
+  }
+}

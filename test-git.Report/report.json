@@ -1,0 +1,86 @@
+{
+  "config": "{\"version\":\"5.48\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "schools2386916744937313.jfif",
+            "path": "schools2386916744937313.jfif",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Welcome",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"cc929a332a01592a19c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.43952802359882,\"y\":0,\"z\":0,\"width\":1270.5604719764012,\"height\":719.2920353982302,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"schools2386916744937313.jfif\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 719.29,
+          "width": 1270.56,
+          "x": 9.44,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection0367063f97d9183e6f7a",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"099016847e39588de508\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":0,\"z\":0,\"width\":553.1125827814569,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DWH factCommunitySchool.SchoolName\"},{\"queryRef\":\"DWH factCommunitySchool.City\"},{\"queryRef\":\"DWH dimSchoolCategory.CategoryName\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DWH factCommunitySchool\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DWH dimSchoolCategory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SchoolName\"},\"Name\":\"DWH factCommunitySchool.SchoolName\",\"NativeReferenceName\":\"SchoolName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"City\"},\"Name\":\"DWH factCommunitySchool.City\",\"NativeReferenceName\":\"City\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"CategoryName\"},\"Name\":\"DWH dimSchoolCategory.CategoryName\",\"NativeReferenceName\":\"CategoryName\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 553.11,
+          "x": 9.54,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2ab44521ec9036b1e467\",\"layouts\":[{\"id\":0,\"position\":{\"x\":573.7748344370862,\"y\":0,\"z\":1,\"width\":705.6953642384107,\"height\":720,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Y\":[{\"queryRef\":\"DWH factCommunitySchool.Latitude\"}],\"X\":[{\"queryRef\":\"DWH factCommunitySchool.Longitude\"}],\"Size\":[{\"queryRef\":\"DWH factCommunitySchool.School Count\"}],\"Series\":[{\"queryRef\":\"DWH dimSchoolCategory.CategoryName\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DWH factCommunitySchool\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DWH dimSchoolCategory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Latitude\"},\"Name\":\"DWH factCommunitySchool.Latitude\",\"NativeReferenceName\":\"Latitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Longitude\"},\"Name\":\"DWH factCommunitySchool.Longitude\",\"NativeReferenceName\":\"Longitude\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"School Count\"},\"Name\":\"DWH factCommunitySchool.School Count\",\"NativeReferenceName\":\"School Count\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"CategoryName\"},\"Name\":\"DWH dimSchoolCategory.CategoryName\",\"NativeReferenceName\":\"CategoryName\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 705.70,
+          "x": 573.77,
+          "y": 0.00,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
