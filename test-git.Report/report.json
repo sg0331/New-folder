@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.48\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "config": "{\"version\":\"5.48\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -71,34 +71,13 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"2ab44521ec9036b1e467\",\"layouts\":[{\"id\":0,\"position\":{\"x\":573.7748344370862,\"y\":0,\"z\":1,\"width\":705.6953642384107,\"height\":720,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Y\":[{\"queryRef\":\"DWH factCommunitySchool.Latitude\"}],\"X\":[{\"queryRef\":\"DWH factCommunitySchool.Longitude\"}],\"Size\":[{\"queryRef\":\"DWH factCommunitySchool.School Count\"}],\"Series\":[{\"queryRef\":\"DWH dimSchoolCategory.CategoryName\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DWH factCommunitySchool\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DWH dimSchoolCategory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Latitude\"},\"Name\":\"DWH factCommunitySchool.Latitude\",\"NativeReferenceName\":\"Latitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Longitude\"},\"Name\":\"DWH factCommunitySchool.Longitude\",\"NativeReferenceName\":\"Longitude\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"School Count\"},\"Name\":\"DWH factCommunitySchool.School Count\",\"NativeReferenceName\":\"School Count\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"CategoryName\"},\"Name\":\"DWH dimSchoolCategory.CategoryName\",\"NativeReferenceName\":\"CategoryName\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"2ab44521ec9036b1e467\",\"layouts\":[{\"id\":0,\"position\":{\"x\":573.7748344370862,\"y\":0,\"z\":1000,\"width\":705.6953642384107,\"height\":720,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Y\":[{\"queryRef\":\"DWH factCommunitySchool.Latitude\"}],\"X\":[{\"queryRef\":\"DWH factCommunitySchool.Longitude\"}],\"Size\":[{\"queryRef\":\"DWH factCommunitySchool.School Count\"}],\"Series\":[{\"queryRef\":\"DWH dimSchoolCategory.CategoryName\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DWH factCommunitySchool\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DWH dimSchoolCategory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Latitude\"},\"Name\":\"DWH factCommunitySchool.Latitude\",\"NativeReferenceName\":\"Latitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Longitude\"},\"Name\":\"DWH factCommunitySchool.Longitude\",\"NativeReferenceName\":\"Longitude\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"School Count\"},\"Name\":\"DWH factCommunitySchool.School Count\",\"NativeReferenceName\":\"School Count\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"CategoryName\"},\"Name\":\"DWH dimSchoolCategory.CategoryName\",\"NativeReferenceName\":\"CategoryName\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 720.00,
           "width": 705.70,
           "x": 573.77,
           "y": 0.00,
-          "z": 1.00
-        }
-      ],
-      "width": 1280.00
-    },
-    {
-      "config": "{}",
-      "displayName": "Page 2",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "ReportSection0bc0209f5dc698d3410c",
-      "ordinal": 2,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"c1dc7dfced6073f43282\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.721518987341772,\"y\":0,\"z\":0,\"width\":1192.506329113924,\"height\":280.30379746835445,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hello World\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
-          "filters": "[]",
-          "height": 280.30,
-          "width": 1192.51,
-          "x": 9.72,
-          "y": 0.00,
-          "z": 0.00
+          "z": 1000.00
         }
       ],
       "width": 1280.00
