@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "config": "{\"version\":\"5.48\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+=======
+  "config": "{\"version\":\"5.48\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+>>>>>>> Stashed changes
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -97,6 +101,27 @@
           "height": 280.30,
           "width": 1192.51,
           "x": 9.72,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection1340605e62054bafadee",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"386dbfa2ce5f9c0659c3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":0,\"z\":0,\"width\":1269.9337748344371,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"DWH dimSchoolCategory.CategoryName\",\"active\":true}],\"Values\":[{\"queryRef\":\"DWH factCommunitySchool.School Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DWH dimSchoolCategory\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DWH factCommunitySchool\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CategoryName\"},\"Name\":\"DWH dimSchoolCategory.CategoryName\",\"NativeReferenceName\":\"CategoryName\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"School Count\"},\"Name\":\"DWH factCommunitySchool.School Count\",\"NativeReferenceName\":\"School Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 1269.93,
+          "x": 9.54,
           "y": 0.00,
           "z": 0.00
         }
